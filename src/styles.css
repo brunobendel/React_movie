@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.pages {
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 2rem;
+    font-family: 'League Spartan' sans-serif;
+}

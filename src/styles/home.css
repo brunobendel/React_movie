@@ -1,0 +1,47 @@
+body {
+  background: rgb(64, 62, 255);
+  background: radial-gradient(circle, rgba(64, 62, 255, 1) 0%, rgba(0, 0, 0, 1) 70%);
+  height: 100vh;
+  background-size: cover
+}
+
+h1 {
+  text-align: center;
+  margin: 4rem 0;
+  color: aliceblue;
+}
+
+ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  column-gap: 3rem;
+  row-gap: 4rem;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 180px;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+
+span {
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 120%;
+  text-align: center;
+}
+
+a {
+  transition: all 0.5s;
+}
+
+a :hover {
+  transform: scale(1.1);
+}

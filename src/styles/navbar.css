@@ -1,0 +1,35 @@
+.nav {
+    background:rgba(0,0,0,1);
+    color: white;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 55px;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.nav a {
+    color: aliceblue;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+
+}
+
+.nav li:hover {
+    background: #777;
+}
