@@ -17,7 +17,7 @@ export default function Details() {
 
   
   useEffect(() => {
-    fetch(`https://api.themoviedb.org/3/movie/${id}?language=en-US`,options)
+    fetch(`https://api.themoviedb.org/3/movie/${id}?language=pt-BR`,options)
       .then((response) => response.json())
       .then((data) => {
         const { title, poster_path, release_date, overview } = data;
@@ -43,7 +43,7 @@ export default function Details() {
           <span className="release-date">
             Release date: {movie.releaseDate}
           </span>
-          <Link to="/">
+          <Link to="/react_movie">
             <button>Go Back</button>
           </Link>
         </div>
