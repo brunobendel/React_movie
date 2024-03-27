@@ -5,11 +5,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: "/react_movie",
-  proxy: {
-    '/api': {
-      target: 'https://brunobendel.github.io/react_movie',
-      changeOrigin: true,
-    },
-  },
+  // proxy: {
+  //   '/api': {
+  //     target: 'https://brunobendel.github.io/react_movie',
+  //     changeOrigin: true,
+  //   },
+  // },
 
 })

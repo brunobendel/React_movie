@@ -24,7 +24,7 @@ export default function Home() {
       .then((data) => {
         setMovies(data.results);
       });
-  });
+  },[]);
 
   return (
     <div>
