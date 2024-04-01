@@ -5,7 +5,7 @@ import { BiCameraMovie } from "react-icons/bi";
 export default function Navbar() {
   return (
     <nav className="nav">
-      <Link to="/react_movie" className="icon">
+      <Link to="/" className="icon">
         <BiCameraMovie />
         BENDEL&apos;S MOVIES
       </Link>
