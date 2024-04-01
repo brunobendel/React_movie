@@ -34,14 +34,8 @@
     * <img width='30' align='center' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" /> React-Js <img width='30' align='center' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" />
         * JSX
         * Props
-        * Rotes
-        * React-Router-Dom
-        * ReactDom
         * React-Icons
-        * React Hooks:
-          * useEffect
-          * useState
-          * useSearchParams
+        * React Hooks
 #
 
 ## Getting Started
