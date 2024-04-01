@@ -41,7 +41,7 @@ export default function DetailSeries() {
           <span className="release-date">
             Data Lançamento : {movie.first_air_date}
           </span>
-          <Link to="/react_movie/about">
+          <Link to="/about">
             <button>Go Back</button>
           </Link>
         </div>

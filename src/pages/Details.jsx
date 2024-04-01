@@ -43,7 +43,7 @@ export default function Details() {
           <span className="release-date">
             Release date: {movie.releaseDate}
           </span>
-          <Link to="/react_movie">
+          <Link to="/">
             <button>Go Back</button>
           </Link>
         </div>

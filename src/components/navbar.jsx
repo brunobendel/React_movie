@@ -10,8 +10,8 @@ export default function Navbar() {
         BENDEL&apos;S MOVIES
       </Link>
       <ul>
-        <Link to="/react_movie">Filmes</Link>
-        <Link to="/react_movie/about">Series</Link>
+        <Link to="/">Filmes</Link>
+        <Link to="/about">Series</Link>
         <Link to="/profile">Perfil</Link>
       </ul>
     </nav>

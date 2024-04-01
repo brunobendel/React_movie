@@ -11,8 +11,8 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/react_movie" element={<Home />} />
-        <Route path="/react_movie/about" element={<About />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/details/:id" element={<Details />} />
         <Route path="/detailSeries/:id" element={<DetailSeries />} />
         <Route path="/profile" element={<Profile />} />
