@@ -1,6 +1,6 @@
-# TMDB Filmes React 📽️
+# TMDB Filmes React 📽️  Bendel Movies
 
-🎞️ Projeto consumindo uma api do site de filmes TMDB com informações e imagens e renderizando tudo em diversos cards com todo conteúdo sobre cada filme como exemplo: nome, genêro, descrição, bilheteria entre outros conteúdos. 🎞️
+🎞️ Projeto consumindo uma api do site de filmes TMDB com informações e imagens e renderizando tudo em diversos cards com todo conteúdo sobre cada filme como exemplo: nome, descrição, data de lançamento. 🎞️
 #
 * Deploy Vercel ☁️:
   * [MoviesLib](https://react-movie-seven-sigma.vercel.app/) 🎬
