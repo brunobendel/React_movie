@@ -11,7 +11,7 @@ export default function Navbar() {
       </Link>
       <ul>
         <Link to="/react_movie">Filmes</Link>
-        <Link to="/series">Series</Link>
+        <Link to="/react_movie/about">Series</Link>
         <Link to="/profile">Perfil</Link>
       </ul>
     </nav>
